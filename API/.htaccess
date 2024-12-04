@@ -1,0 +1,9 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^staff/?$ staff.php [NC,L]
+RewriteRule ^staff/([0-9]+)/?$ staff.php?id=$1 [NC,L]
+
+RewriteRule ^buku/?$ buku.php [NC,L]
+RewriteRule ^buku/([0-9]+)/?$ buku.php?id=$1 [NC,L]
+
+RewriteRule ^anggota/?$ anggota.php [NC,L]
+RewriteRule ^anggota/([0-9]+)/?$ anggota.php?id=$1 [NC,L]
